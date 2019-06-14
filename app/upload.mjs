@@ -16,8 +16,11 @@ const options = {
   body: content
 };
 
-request(options, (error, res, body) => {
+const send = request(options, (error, res, body) => {
   console.log(`Error: ${error}`);
   console.log(`Response: ${JSON.stringify(res.statusCode)}`);
   console.log(`Body: ${body}`);
+  return res.statusCode;
 });
+
+export default send;

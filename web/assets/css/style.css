@@ -1,0 +1,14 @@
+html, body {
+    font-size: 16px;
+    height: 100vh;
+}
+
+header {
+    height: 4rem;
+    box-shadow: 2px 2px 2px 2px #222222;
+}
+
+#drop-area {
+    padding: 2rem;
+    border: 4px rgba(255,33,33,0.2);
+}

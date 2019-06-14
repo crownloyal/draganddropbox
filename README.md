@@ -5,3 +5,4 @@ Run code in node v10+
 ```
 node --experimental-modules server.mjs
 ```
+3. visit htmllocalhost:5500/

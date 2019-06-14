@@ -14,6 +14,7 @@
   "author": "Dominic Brause",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "request": "^2.88.0"
   }
 }
